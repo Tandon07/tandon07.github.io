@@ -2,34 +2,34 @@ import { ArrowUpRight } from 'lucide-react';
 
 const projects = [
   {
-    title: 'HRMS Agentic Automation',
-    category: 'Blueflame Labs',
-    description: 'Designed and deployed conversational AI pipelines using LangGraph and CrewAI to automate enterprise HRMS workflows, saving 50% of HR resolution time.',
-    tags: ['LangGraph', 'CrewAI', 'Azure Bot Services', 'RAG']
+    title: 'Agentic HRMS AI System',
+    category: 'Enterprise AI',
+    description: 'At Blueflame Labs, I architected and deployed a production-grade Agentic AI application that transformed how employees interact with HR systems. By designing intelligent multi-agent orchestration using LangGraph for state-based workflow management and Advanced-RAG pipelines for contextual accuracy, the system seamlessly handles leave requests, attendance, payslips, policy queries, and ticketing — all through natural conversation. I built secure RESTful API connectors for real-time HRMS integration and deployed the solution via Azure Bot Services, embedding it directly into Microsoft Teams for enterprise-wide adoption. The result was a measurable 50% reduction in HR time spent on repetitive queries, delivering a scalable, reliable, and self-service AI experience across the organization.',
+    tags: ['LangGraph', 'Advanced-RAG', 'Azure Bot', 'Teams']
   },
   {
-    title: 'GenAI Project Retrieval',
-    category: 'Capgemini',
-    description: 'Developed a Python/Streamlit web app with LangChain, OpenAI, and FAISS to retrieve relevant project data, reducing duplicate efforts by 25%.',
-    tags: ['Python', 'Streamlit', 'LangChain', 'OpenAI', 'FAISS']
+    title: 'GenAI-Powered Project Retrieval Platform',
+    category: 'Knowledge Web App',
+    description: 'At Capgemini, I developed an intelligent web application that brought the power of Generative AI into everyday team workflows. Using Python, LangChain, OpenAI, FAISS, and Streamlit, I built a smart retrieval system that allowed the team to instantly surface relevant project data from large internal databases — eliminating redundant research and cutting duplicate efforts by 25%. By leveraging advanced RAG techniques for enhanced semantic search, the platform streamlined project creation processes end-to-end, saving over 30 hours of manual effort every month and significantly improving team-wide productivity and knowledge reuse.',
+    tags: ['LangChain', 'OpenAI', 'FAISS', 'RAG']
   },
   {
-    title: 'Customer Sentiment Engine',
-    category: 'Cognizant',
-    description: 'Built an end-to-end ML solution utilizing NLTK, TF-IDF, Logistic Regression, and LDA topic modeling to classify and visualize customer feedback semantics.',
-    tags: ['Python', 'NLTK', 'Scikit-learn', 'MySQL', 'Flask']
+    title: 'Customer Sentiment Intelligence Platform',
+    category: 'NLP Pipeline',
+    description: 'At Cognizant, I led the end-to-end development of a customer feedback analytics system that turned raw, unstructured data into actionable business intelligence. I designed a structured MySQL pipeline to ingest feedback from surveys, forms, and reviews, then preprocessed the text using Python, NLTK, and scikit-learn — applying tokenization, stopword removal, and TF-IDF vectorization to make the data model-ready. I trained and evaluated classical ML models including Logistic Regression, Random Forest, and SVM for multi-class sentiment classification, while also applying LDA-based topic modeling to surface recurring pain points and improvement themes. The insights were made accessible through a FastAPI-powered web interface with visual dashboards, enabling stakeholders to track customer sentiment trends in real time.',
+    tags: ['NLP', 'TF-IDF', 'SVM', 'Random Forest', 'FastAPI']
   },
   {
-    title: 'Chat with YouTube',
-    category: 'Personal Project',
-    description: 'Engineered a ConversationalRetrievalChain powered by Whisper, HuggingFace embeddings, FAISS, and Gemma models to enable intelligent chat with YouTube video transcripts.',
-    tags: ['Streamlit', 'Whisper', 'HuggingFace', 'Gemma', 'FAISS']
+    title: 'Conversational Video AI',
+    category: 'LLM App',
+    description: 'Chat with YouTube is an advanced AI application that reimagines how users engage with video content — turning any YouTube video into an interactive, conversational knowledge source. I engineered the system using Streamlit as the interface layer, with Whisper and YouTubeTranscriptApi handling seamless audio transcription. Text was chunked, embedded using HuggingFace models, and stored as vectors in FAISS for efficient semantic retrieval. At the core of the experience is a dynamic ConversationalRetrievalChain with persistent memory, enabling nuanced, multi-turn conversations that retain context across the session. The system was powered by the Gemma language model via HuggingFace and Groq APIs, delivering fast, high-quality responses that make exploring long-form video content feel effortless.',
+    tags: ['Streamlit', 'Whisper', 'LangChain', 'FAISS', 'Gemma']
   },
   {
-    title: 'Thyroid Detection System',
+    title: 'ML-Powered Medical Diagnostic Tool',
     category: 'Machine Learning',
-    description: 'Developed a classification model achieving 92% accuracy. Containerized with Docker and deployed to AWS EC2 via GitHub Actions CI/CD.',
-    tags: ['Scikit-learn', 'Pandas', 'MongoDB', 'Docker', 'AWS EC2', 'GitHub Actions']
+    description: 'This project involved building a robust, end-to-end machine learning solution for early detection of thyroid abnormalities using a real-world clinical dataset of over 12,000 records. I handled the full ML lifecycle — from data cleaning and feature engineering to preprocessing and model building — ultimately fine-tuning a Decision Tree classifier with a maximum depth of 8, achieving a strong 92% test accuracy. To take the model from notebook to production, I containerized it using Docker, pushed the image to AWS ECR, and deployed it on EC2, with a GitHub Actions CI/CD pipeline ensuring smooth, automated releases. A Flask-based web interface was built on top, allowing users to input clinical parameters and receive diagnostic predictions instantly — demonstrating how machine learning can be made both accessible and deployable at scale.',
+    tags: ['Decision Tree', 'Docker', 'AWS EC2', 'GitHub Actions', 'Flask']
   }
 ];
 
