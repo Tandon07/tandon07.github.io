@@ -2,19 +2,19 @@ import { ArrowUpRight } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Blueflame Labs — Agentic HRMS AI System',
+    title: 'Agentic HRMS AI System',
     category: 'Enterprise AI',
     description: 'Architected and deployed a production-grade Agentic AI application that transformed how employees interact with HR systems. By designing intelligent multi-agent orchestration using LangGraph for state-based workflow management and Advanced-RAG pipelines for contextual accuracy, the system seamlessly handles leave requests, attendance, payslips, policy queries, and ticketing — all through natural conversation. I built secure RESTful API connectors for real-time HRMS integration and deployed the solution via Azure Bot Services, embedding it directly into Microsoft Teams for enterprise-wide adoption. The result was a measurable 50% reduction in HR time spent on repetitive queries, delivering a scalable, reliable, and self-service AI experience across the organization.',
     tags: ['LangGraph', 'Advanced-RAG', 'Azure Bot', 'Teams']
   },
   {
-    title: 'Capgemini — GenAI-Powered Project Retrieval Platform',
+    title: 'GenAI-Powered Project Retrieval Platform',
     category: 'Knowledge Web App',
     description: 'Developed an intelligent web application that brought the power of Generative AI into everyday team workflows. Using Python, LangChain, OpenAI, FAISS, and Streamlit, I built a smart retrieval system that allowed the team to instantly surface relevant project data from large internal databases — eliminating redundant research and cutting duplicate efforts by 25%. By leveraging advanced RAG techniques for enhanced semantic search, the platform streamlined project creation processes end-to-end, saving over 30 hours of manual effort every month and significantly improving team-wide productivity and knowledge reuse.',
     tags: ['LangChain', 'OpenAI', 'FAISS', 'RAG']
   },
   {
-    title: 'Cognizant — Customer Sentiment Intelligence Platform',
+    title: 'Customer Sentiment Intelligence Platform',
     category: 'NLP Pipeline',
     description: 'Led the end-to-end development of a customer feedback analytics system that turned raw, unstructured data into actionable business intelligence. I designed a structured MySQL pipeline to ingest feedback from surveys, forms, and reviews, then preprocessed the text using Python, NLTK, and scikit-learn — applying tokenization, stopword removal, and TF-IDF vectorization to make the data model-ready. I trained and evaluated classical ML models including Logistic Regression, Random Forest, and SVM for multi-class sentiment classification, while also applying LDA-based topic modeling to surface recurring pain points and improvement themes. The insights were made accessible through a FastAPI-powered web interface with visual dashboards, enabling stakeholders to track customer sentiment trends in real time.',
     tags: ['NLP', 'TF-IDF', 'SVM', 'Random Forest', 'FastAPI']
